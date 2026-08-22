@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d60d013-dcc3-47fe-b176-6a2d8ec859e0" name="Changes" comment="static host" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <execution>
+        <execution>
+          <execution>
+            <execution>
+              <execution>
+                <execution>
+                  <execution>
+                    <execution>
+                      <execution />
+                    </execution>
+                  </execution>
+                </execution>
+              </execution>
+            </execution>
+          </execution>
+        </execution>
+      </execution>
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ramesharma426&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ramesharma426/portfolio&quot;,
+    &quot;accountId&quot;: &quot;4dc4c766-7faa-4e70-9165-e3ac9eaded37&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.000709852405109" />
+      <entry key="MS500" value="1.7220220298170477" />
+      <entry key="S2" value="4.05656623216195" />
+      <entry key="S5" value="5.107217178891902" />
+      <entry key="S10" value="5.721779849005374" />
+      <entry key="S30" value="8.858740817303719" />
+      <entry key="S60" value="12.13606244519202" />
+      <entry key="M2" value="15.309260109423542" />
+      <entry key="M5" value="19.41420448304812" />
+      <entry key="M10" value="22.796186482178314" />
+      <entry key="M15" value="24.582446566440407" />
+      <entry key="M30" value="26.91427596129821" />
+      <entry key="H1" value="28.34700278992736" />
+      <entry key="H2" value="29.14367956602603" />
+      <entry key="H4" value="29.564077092174276" />
+      <entry key="D1" value="29.926240901064503" />
+      <entry key="W1" value="29.98943555667963" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="3.7582570669411673E-166" />
+      <entry key="MS500" value="8.222375315737585E-34" />
+      <entry key="S2" value="5.354874835788524E-9" />
+      <entry key="S5" value="4.914730742614429E-4" />
+      <entry key="S10" value="0.022169192007410715" />
+      <entry key="S30" value="0.2809204065610979" />
+      <entry key="S60" value="0.530019251123106" />
+      <entry key="M2" value="0.7280242105336235" />
+      <entry key="M5" value="0.8807615129894854" />
+      <entry key="M10" value="0.9384889519805147" />
+      <entry key="M15" value="0.9585603105400041" />
+      <entry key="M30" value="0.9790609330067278" />
+      <entry key="H1" value="0.9894750795278919" />
+      <entry key="H2" value="0.9947236196692485" />
+      <entry key="H4" value="0.9973583205995971" />
+      <entry key="D1" value="0.9995592347001454" />
+      <entry key="W1" value="0.9999370216310162" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9801024828197" />
+      <entry key="MS500" value="1.658048246572976" />
+      <entry key="S2" value="3.95253803669336" />
+      <entry key="S5" value="5.046306431902282" />
+      <entry key="S10" value="5.7061343023729725" />
+      <entry key="S30" value="9.113826453733303" />
+      <entry key="S60" value="12.646741399565862" />
+      <entry key="M2" value="16.02474457648187" />
+      <entry key="M5" value="20.288901971390747" />
+      <entry key="M10" value="23.73141152058234" />
+      <entry key="M15" value="25.538772468343442" />
+      <entry key="M30" value="27.89218818404076" />
+      <entry key="H1" value="29.335895139201508" />
+      <entry key="H2" value="30.13810965676547" />
+      <entry key="H4" value="30.56128809805566" />
+      <entry key="D1" value="30.925775506070515" />
+      <entry key="W1" value="30.98936905788046" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3IEYDPTGyBjykT01I4RRSelNYww" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.Next.js: server-side.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/dawn/work/portfolio/node_modules/typescript/lib&quot;
+  }
+}</component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PS-262.9437.196" />
+        <option value="bundled-php-predefined-a98d8de5180a-9522f28f0b20-com.jetbrains.php.sharedIndexes-PS-262.9437.196" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d60d013-dcc3-47fe-b176-6a2d8ec859e0" name="Changes" comment="" />
+      <created>1787331075486</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1787331075486</updated>
+      <workItem from="1787331077676" duration="791000" />
+      <workItem from="1787390009374" duration="4933000" />
+      <workItem from="1787395223820" duration="173000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1787331177000</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1787331177000</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Personalise portfolio content with Ramesh Sharma's real profile&#10;&#10;- Replace demo identity, employers, projects, articles, socials and copy&#10;throughout content.ts, About, Footer, Hero, Icons, Projects and Work with&#10;Ramesh Sharma's real CV data, repos and portrait&#10;- Add SEO metadata (OpenGraph, Twitter, JSON-LD) and site URL to layout.tsx&#10;- Drop unused hero CTA pill and social icons (Telegram, X, Instagram)&#10;- Update PRODUCT.md positioning to reflect the site is now real, not a demo">
+      <option name="closed" value="true" />
+      <created>1787392481981</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1787392481981</updated>
+    </task>
+    <task id="LOCAL-00003" summary="static host">
+      <option name="closed" value="true" />
+      <created>1787394781506</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1787394781506</updated>
+    </task>
+    <task id="LOCAL-00004" summary="static host">
+      <option name="closed" value="true" />
+      <created>1787394985142</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1787394985142</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="init" />
+    <MESSAGE value="Personalise portfolio content with Ramesh Sharma's real profile&#10;&#10;- Replace demo identity, employers, projects, articles, socials and copy&#10;throughout content.ts, About, Footer, Hero, Icons, Projects and Work with&#10;Ramesh Sharma's real CV data, repos and portrait&#10;- Add SEO metadata (OpenGraph, Twitter, JSON-LD) and site URL to layout.tsx&#10;- Drop unused hero CTA pill and social icons (Telegram, X, Instagram)&#10;- Update PRODUCT.md positioning to reflect the site is now real, not a demo" />
+    <MESSAGE value="static host" />
+    <option name="LAST_COMMIT_MESSAGE" value="static host" />
+    <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
