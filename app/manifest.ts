@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { identity } from "./data/content";
 
+export const dynamic = "force-static"
+
 export default function manifest(): MetadataRoute.Manifest {
   const fullName = `${identity.first} ${identity.last}`;
   return {
