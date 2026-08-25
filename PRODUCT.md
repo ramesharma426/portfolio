@@ -51,7 +51,7 @@ Sourced from Ramesh Sharma's CV and his GitHub repos. What's real vs. still plac
 - Employers, date ranges, and stack — real (CyberArrow, Prabidhee Innovations, Anshu Tech).
 - Projects — two real repos (`dcmc-vue`, `pos`), summarized from their actual dependencies and README content.
 - Articles — still placeholder (`[Add an article title]` entries); awaiting real writing.
-- Portrait imagery — a real photo, cropped to the layout's 5:7 figure ratio.
+- About's figure slot — an authored developer-at-desk illustration (`DevMark`: code editor, person, laptop, coffee mug), not a photo of Ramesh. Drawn as monochrome hairline SVG matching the site's own icon stroke system, sized to the layout's 5:7 figure ratio; the one solid fill (hair) is the system's inversion accent, not color. A real portrait (`public/portrait.jpg`/`.webp`) still exists on disk and is referenced by the Person JSON-LD `image` field, but is no longer displayed in the page itself.
 - **Future work must not invent** client names, revenue, user counts, benchmark numbers, awards, or availability claims presented as fact — this applies doubly now that the site is real: an unverifiable claim here is a résumé claim, not template flavor.
 
 ## Product Principles

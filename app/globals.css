@@ -843,6 +843,9 @@ img {
   .plateWrap--back {
     grid-column: 2 / 13;
   }
+  .plateWrap--ai {
+    grid-column: 1 / 5;
+  }
   .plateWrap--ops {
     grid-column: 5 / 13;
   }
@@ -914,24 +917,34 @@ img {
   border-color: var(--color-lit);
 }
 
-.about__figure figure {
-  margin: 0;
+.about__figure {
+  position: relative;
 }
 
-.about__img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 5 / 7;
-  object-fit: cover;
-  border-radius: var(--radius-plate);
-  border: var(--hair) solid var(--color-line);
-  filter: grayscale(1) contrast(1.12) brightness(0.92);
+.about__figure figure {
+  margin: 0;
 }
 
 .about__cap {
   margin-top: 12px;
   display: block;
   opacity: 0.72;
+}
+
+/* ---------- devMark: "Laravel and vue" illustration ---------- */
+
+.devMark {
+  width: 100%;
+  padding: clamp(20px, 2.6vw, 32px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.devMark__scene {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* ---------- projects ---------- */

@@ -104,6 +104,11 @@ export const stack: StackGroup[] = [
     span: "back",
   },
   {
+    title: "AI-Assisted Dev",
+    items: ["Claude Code", "Context Engineering", "Agentic Workflows"],
+    span: "ai",
+  },
+  {
     title: "Cloud & DevOps",
     items: ["Docker", "Laradock", "Azure Blob Storage", "Amazon S3", "Linux", "Git", "CI/CD", "Cloudflare"],
     span: "ops",

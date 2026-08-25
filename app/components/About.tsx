@@ -1,6 +1,6 @@
-import Image from "next/image";
 import { identity, stack, socials } from "../data/content";
 import { ArrowUpRight, Github } from "./Icons";
+import { DevMark } from "./DevMark";
 import { Reveal } from "./Reveal";
 
 export function About() {
@@ -54,15 +54,7 @@ export function About() {
 
           <Reveal delay={140} className="about__figure">
             <figure>
-              <Image
-                src="/portrait.webp"
-                alt="Portrait of Ramesh Sharma"
-                width={900}
-                height={1260}
-                sizes="(max-width: 900px) 90vw, 34vw"
-                className="about__img"
-                priority={false}
-              />
+              <DevMark />
               <figcaption className="u-meta about__cap">Ramesh Sharma</figcaption>
             </figure>
           </Reveal>
