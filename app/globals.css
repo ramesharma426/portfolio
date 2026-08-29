@@ -977,32 +977,7 @@ img {
 
 .proj {
   display: grid;
-  gap: clamp(20px, 3vw, 48px);
-  grid-template-columns: 1fr;
   align-items: start;
-}
-
-@media (min-width: 880px) {
-  .proj {
-    grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
-  }
-  .proj--flip .proj__art {
-    order: 2;
-  }
-}
-
-.proj__screen {
-  border: var(--hair) solid var(--color-line);
-  border-radius: var(--radius-card);
-  background:
-    radial-gradient(120% 90% at 20% 0%, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0) 62%),
-    #0b0b0c;
-  color: var(--color-fg);
-  padding: clamp(14px, 1.6vw, 22px);
-  aspect-ratio: 8 / 5;
-  display: grid;
-  place-items: center;
-  box-shadow: 0 22px 46px -30px rgba(0, 0, 0, 0.9);
 }
 
 .proj__topline {

@@ -122,7 +122,6 @@ export type Project = {
   stack: string[];
   detail: string[];
   repo: string;
-  art: "ledger" | "waypoint" | "sift" | "cadence";
 };
 
 export const projects: Project[] = [
@@ -139,7 +138,6 @@ export const projects: Project[] = [
       "Ships as a Dockerized stack — Nginx, MySQL, Redis and Supervisor — configured per-organization via environment files.",
     ],
     repo: "https://github.com/ramesharma426/dcmc-vue",
-    art: "ledger",
   },
   {
     name: "POS",
@@ -154,7 +152,6 @@ export const projects: Project[] = [
       "Deployed with Docker, matching the containerized workflow used across other projects.",
     ],
     repo: "https://github.com/ramesharma426/pos",
-    art: "waypoint",
   },
 ];
 

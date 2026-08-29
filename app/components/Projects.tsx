@@ -1,5 +1,4 @@
 import { projects } from "../data/content";
-import { projectArt } from "./Diagrams";
 import { ArrowUpRight } from "./Icons";
 import { Reveal } from "./Reveal";
 
@@ -17,57 +16,43 @@ export function Projects() {
         </div>
 
         <ol className="projects__list">
-          {projects.map((p, i) => {
-            const Art = projectArt[p.art];
-            return (
-              <li key={p.art}>
-                <Reveal delay={40} className={`proj${i % 2 ? " proj--flip" : ""}`}>
-                  <div className="proj__art">
-                    <div className="proj__screen">
-                      <Art />
-                    </div>
+          {projects.map((p) => (
+            <li key={p.name}>
+              <Reveal delay={40} className="proj">
+                <div className="proj__body">
+                  <div className="proj__topline">
+                    <span className="u-meta">{p.kind}</span>
+                    <span className="u-meta">{p.year}</span>
                   </div>
+                  <h3 className="u-display u-d-m proj__name">{p.name}</h3>
+                  <p className="u-prose proj__sum">{p.summary}</p>
 
-                  <div className="proj__body">
-                    <div className="proj__topline">
-                      <span className="u-meta">{p.kind}</span>
-                      <span className="u-meta">{p.year}</span>
-                    </div>
-                    <h3 className="u-display u-d-m proj__name">{p.name}</h3>
-                    <p className="u-prose proj__sum">{p.summary}</p>
+                  <ul className="proj__notes">
+                    {p.detail.map((d) => (
+                      <li key={d} className="u-prose">
+                        {d}
+                      </li>
+                    ))}
+                  </ul>
 
-                    <ul className="proj__notes">
-                      {p.detail.map((d) => (
-                        <li key={d} className="u-prose">
-                          {d}
-                        </li>
+                  <div className="proj__foot">
+                    <p className="u-data proj__stack">
+                      {p.stack.map((s, j) => (
+                        <span key={s}>
+                          {s}
+                          {j < p.stack.length - 1 && <i aria-hidden> / </i>}
+                        </span>
                       ))}
-                    </ul>
-
-                    <div className="proj__foot">
-                      <p className="u-data proj__stack">
-                        {p.stack.map((s, j) => (
-                          <span key={s}>
-                            {s}
-                            {j < p.stack.length - 1 && <i aria-hidden> / </i>}
-                          </span>
-                        ))}
-                      </p>
-                      <a
-                        className="u-cap proj__link"
-                        href={p.repo}
-                        target="_blank"
-                        rel="noreferrer noopener"
-                      >
-                        Source
-                        <ArrowUpRight width={13} height={13} />
-                      </a>
-                    </div>
+                    </p>
+                    <a className="u-cap proj__link" href={p.repo} target="_blank" rel="noreferrer noopener">
+                      Source
+                      <ArrowUpRight width={13} height={13} />
+                    </a>
                   </div>
-                </Reveal>
-              </li>
-            );
-          })}
+                </div>
+              </Reveal>
+            </li>
+          ))}
         </ol>
       </div>
     </section>
