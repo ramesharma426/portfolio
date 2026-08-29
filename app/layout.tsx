@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Martian_Mono, Familjen_Grotesk } from "next/font/google";
 import { identity, siteUrl, socials } from "./data/content";
+import { SmoothScroll } from "./components/SmoothScroll";
 import "./globals.css";
 
 /** Direction contract — emitted into the built markup so the run stays auditable. */
@@ -121,6 +122,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
         />
         <div className="u-noise" aria-hidden />
+        <SmoothScroll />
         {children}
       </body>
     </html>

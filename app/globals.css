@@ -53,15 +53,11 @@
 
 html {
   background: var(--color-ink);
-  scroll-behavior: smooth;
+  /* Lenis (see SmoothScroll.tsx) owns anchor easing; native smooth-scroll
+     would otherwise race it toward the same target. */
+  scroll-behavior: auto;
   scroll-padding-top: calc(var(--hdr-h) + 20px);
   -webkit-text-size-adjust: 100%;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
 }
 
 body {
