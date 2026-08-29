@@ -32,6 +32,7 @@
 
 :root {
   --spine: 0px;
+  --hdr-h: clamp(64px, 7vh, 88px);
   --gutter: clamp(20px, 4.4vw, 60px);
   --shell: 1420px;
   --section-y: clamp(5.5rem, 13vh, 10rem);
@@ -53,6 +54,7 @@
 html {
   background: var(--color-ink);
   scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--hdr-h) + 20px);
   -webkit-text-size-adjust: 100%;
 }
 
@@ -578,7 +580,7 @@ img {
   display: flex;
   align-items: center;
   gap: clamp(14px, 2.4vw, 34px);
-  height: clamp(64px, 7vh, 88px);
+  height: var(--hdr-h);
 }
 
 .hdr__name {
