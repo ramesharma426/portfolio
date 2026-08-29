@@ -20,8 +20,8 @@ export type NavItem = { label: string; href: string };
 export const nav: NavItem[] = [
   { label: "About", href: "#about" },
   { label: "Projects", href: "#projects" },
-  { label: "Articles", href: "#articles" },
-  { label: "Contacts", href: "#contact" },
+  { label: "Work", href: "#work" },
+  { label: "Contact", href: "#contact" },
 ];
 
 /** Spine index — wayfinding, position is the information. */
@@ -29,7 +29,6 @@ export const stations: NavItem[] = [
   { label: "Top", href: "#top" },
   { label: "About", href: "#about" },
   { label: "Projects", href: "#projects" },
-  { label: "Writing", href: "#articles" },
   { label: "Work", href: "#work" },
   { label: "Contact", href: "#contact" },
 ];

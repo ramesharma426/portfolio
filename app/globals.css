@@ -1536,17 +1536,11 @@ img {
 
 @media (min-width: 940px) {
   .ftr__in {
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr;
   }
-  .ftr__note {
-    text-align: center;
+  .ftr__in > p:last-child {
+    justify-self: end;
   }
-}
-
-.ftr__note code {
-  font-family: var(--font-mono);
-  font-size: 0.95em;
-  color: var(--color-fg-2);
 }
 
 .ftr__up {

@@ -24,7 +24,7 @@ A single-page personal portfolio for a full-stack developer: who they are, what 
 
 ## Positioning
 
-This is **Ramesh Sharma's real personal portfolio**, built on the spec-sheet template's visual system. Identity, work history, and skills are real, sourced from his CV. The Projects section links two real repositories; the Articles section remains placeholder, awaiting real writing.
+This is **Ramesh Sharma's real personal portfolio**, built on the spec-sheet template's visual system. Identity, work history, and skills are real, sourced from his CV. The Projects section links two real repositories; the Articles section remains placeholder, awaiting real writing, and is not rendered on the live page until then.
 
 ## Operating Context
 
@@ -32,7 +32,7 @@ Read in a browser, most often desktop at 1280–1600px, frequently on a phone fr
 
 ## Capabilities and Constraints
 
-- Sections the nav must honor: About, Projects, Articles, Contacts. Work history and technology stack are part of About's territory.
+- Sections the nav must honor: About, Projects, Work, Contact. Technology stack is part of About's territory; work history is its own Work section. Articles exists as a component and data but is intentionally unlinked from nav and page until real writing exists — see Evidence on Hand.
 - A language toggle (En / Ge) appears in the reference. Recorded as **undecided**: real i18n was not requested. It ships as a visible, non-functional-by-default control only if it can be made honest; otherwise it is dropped.
 - Static site, no server. Contact resolves to `mailto:` and social links, not a form backed by an API.
 - Terminology on the surface is engineering-literal: stack names, role titles, durations, article titles.
@@ -50,7 +50,7 @@ Sourced from Ramesh Sharma's CV and his GitHub repos. What's real vs. still plac
 - Developer identity: **Ramesh Sharma**, Senior Full-stack Developer — real, from CV.
 - Employers, date ranges, and stack — real (CyberArrow, Prabidhee Innovations, Anshu Tech).
 - Projects — two real repos (`dcmc-vue`, `pos`), summarized from their actual dependencies and README content.
-- Articles — still placeholder (`[Add an article title]` entries); awaiting real writing.
+- Articles — still placeholder (`[Add an article title]` entries); awaiting real writing. Component and data exist but are not rendered on the live page — pulled from nav, Spine, and `app/page.tsx` until there's something real to show.
 - About's figure slot — an authored developer-at-desk illustration (`DevMark`: code editor, person, laptop, coffee mug), not a photo of Ramesh. Drawn as monochrome hairline SVG matching the site's own icon stroke system, sized to the layout's 5:7 figure ratio; the one solid fill (hair) is the system's inversion accent, not color. A real portrait (`public/portrait.jpg`/`.webp`) still exists on disk and is referenced by the Person JSON-LD `image` field, but is no longer displayed in the page itself.
 - **Future work must not invent** client names, revenue, user counts, benchmark numbers, awards, or availability claims presented as fact — this applies doubly now that the site is real: an unverifiable claim here is a résumé claim, not template flavor.
 
